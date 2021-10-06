@@ -1,0 +1,40 @@
+.item{
+    border: solid rgba(0, 0, 0, 0.144) thin;
+    margin: auto;
+    width: inherit;
+    display:flex;
+    flex-direction:column;
+    padding-bottom: 20px;
+}
+.item:hover{
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.322);
+}
+.item>img{
+    object-fit: cover;
+}
+.iteminfo>h4,.iteminfo>h5,.iteminfo>h6{
+    margin: 0;
+}
+.iteminfo>h4{
+    font-size:14px;
+    font-weight: 670;
+}
+.iteminfo>h6{
+    margin-top:4px;
+    margin-bottom: 4px;
+    font-size: 16px !important;
+}
+.iteminfo>h5{
+    font-size: 12px;
+    font-weight: 400;
+}
+.iteminfo>button{
+    margin-top: 20px;
+    border-radius: 20px;
+    padding:4px 9px 4px 9px;
+    font-size:12px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color:rgba(111, 189, 75, 0.842);
+}

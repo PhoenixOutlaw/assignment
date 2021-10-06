@@ -1,0 +1,133 @@
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   background-color:rgba(111, 189, 75, 0.842);
+   width: 100%;
+   height: 26px;
+  }
+  .hl,.hr{
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  .hl>.MuiSvgIcon-root,.hr>.MuiSvgIcon-root{
+    height: 7px;
+    width:  7px;
+    margin:8px 9px 8px 9px ;
+  }
+  .hl>h6{
+    margin: 0;
+    padding: 0 0 0 11px;
+    font-size:8px;
+    border-left: solid white thin;
+  }
+  .hr>h6{
+    margin: 0;
+    font-size:8px;
+  }
+  #ex{
+    margin: 0;
+    height:20px !important;
+    width:20px !important;
+  }.subheader{
+    display: grid;
+    grid-template: 1fr;
+  }
+  .sht,.shd{
+    margin: auto;
+    width:80%;
+  }
+  
+  .logo{
+    display:flex;
+    height:60px;
+    align-items: center;
+  }
+  .logo>img{
+    height:inherit;
+    object-fit:contain;
+  }
+  
+  .logo>span>h6,.logo>span>h3{
+    color: rgba(111, 189, 75, 0.842);
+    font-size:15px;
+    margin: 0;
+  }
+  .logo>span>h6{
+    font-size:7px;
+  }
+  .opt{
+    padding-left: 20px;
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .opt>h5,.opt>span>h5{
+    margin: 0;
+    font-size:10.5px;
+  }
+  .opt>h5:hover,.opt>span>h5:hover{
+    box-shadow:0 1px 0 black;
+    cursor: pointer;
+  }
+  .opt>span{
+    display: flex;
+    align-items: center;
+  }
+  .opticon>.MuiSvgIcon-root{
+    height:18px ;
+    width: 18px ;
+    margin:  0 1px 0 7px ;
+  }
+  .opt>span>#ex{
+    height:12px !important;
+    width:12px  !important;
+  }
+  .shd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #btn{
+    width:180px;
+    background-color: rgba(111, 189, 75, 0.842);
+    color: white;
+    padding-left:  0;
+    padding-right: 0;
+    font-size:11px;
+    border: rgba(0, 0, 0, 0.253) solid thin;
+  }
+  #btnn{
+    width:80px;
+    background-color: rgba(111, 189, 75, 0.842);
+    color: white;
+    padding: 10px;
+    font-size:11px;
+    border: rgba(0, 0, 0, 0.253) solid thin;
+  }
+  .shdsearch{
+    flex:0.97;
+    display:flex;
+    border: solid rgba(0, 0, 0, 0.13) thin;
+    width: 100%
+  }
+  #sh1{
+    flex:0.3;
+    width: 100%;
+    background-color:white;
+    font-size: 9px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.685);
+  }
+  #sh2{
+    flex:0.7;
+    padding: 6px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-left: solid rgba(0, 0, 0, 0.281) thin;
+  }

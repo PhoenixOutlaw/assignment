@@ -1,0 +1,37 @@
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaIYG6b3aS-feyShWjo0cP-IXxa_YH0Efb7g&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fh{
+    margin:auto;
+    border: solid rgba(0, 0, 0, 0.062) thin;
+    background-color: rgb(131, 212, 84);
+    width: 70%;
+    display:flex;
+    align-items: center;
+    color:white;
+    padding: 10px ;
+    justify-content: space-evenly;
+}
+.fh>div{
+    display: flex;
+    align-items: center;
+}
+.fh>div>.MuiSvgIcon-root{
+    border-radius:100px;
+    background-color:white;
+    padding:8px;
+    color:rgb(126, 204, 81);
+}
+.fh>div>span{
+    margin-left:9px;
+    text-align: left;
+}
+.fh>div>span>h4,.fh>div>span>h6{
+    font-size: 12px;
+    margin: 0;
+}
