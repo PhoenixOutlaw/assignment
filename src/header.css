@@ -1,4 +1,4 @@
-
+ 
 .header{
     display: flex;
     align-items: center;
@@ -32,15 +32,16 @@
     height:20px !important;
     width:20px !important;
   }.subheader{
-    display: grid;
-    grid-template: 1fr;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
   }
   .sht,.shd{
-    margin: auto;
     width:80%;
   }
   
   .logo{
+    width:100%;
     display:flex;
     height:60px;
     align-items: center;
@@ -59,8 +60,8 @@
     font-size:7px;
   }
   .opt{
+    width: 100%;
     padding-left: 20px;
-    width: 80%;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -77,6 +78,11 @@
     display: flex;
     align-items: center;
   }
+ .opticon{
+   display: flex;
+   align-items: center;
+   margin-right: 10px;
+ }
   .opticon>.MuiSvgIcon-root{
     height:18px ;
     width: 18px ;

@@ -60,12 +60,12 @@ export const Header = () => {
                 <ArrowDropDownSharp id="ex" />
               </span>
               <h5>Contact Us</h5>
+            </div>
               <div className="opticon">
                 <FavoriteBorderOutlinedIcon />
                 <ShoppingCartOutlinedIcon />
                 <PersonIcon />
               </div>
-            </div>
           </div>
         </div>
         <div className="shd">
@@ -78,7 +78,7 @@ export const Header = () => {
             All Departments
           </Button>
           <div className="shdsearch">
-            <Button id="sh1" endIcon={<ArrowDropDownTwoTone />}>
+            <Button id="sh1" endIcon={<ArrowDropDownTwoTone id="sbtn"/>}>
               All Categories
             </Button>
             <input id="sh2" type="text" placeholder="search here" />

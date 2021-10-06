@@ -5,11 +5,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top:200;
+    overflow: hidden;
 }
 .feed1>div{
-    margin-top:150px;
-    position:absolute;
-    right:20px;
+    top: 40%;
+    left: 40%;
+    position: relative;
     background-color:transparent;
     text-align: left;
     color: rgba(70, 211, 52, 0.993);
@@ -139,6 +140,7 @@
 .feed3>div{
     width: 60%;
     padding-top: 10px;
+    padding-bottom: 10px;
     margin: auto;
 }
 .feed3>div>h2,.feed3>div>p{

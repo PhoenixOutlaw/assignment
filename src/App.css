@@ -1,3 +1,95 @@
 .App {
   text-align: center;
 }
+
+@media screen and (max-width: 700px) {
+  
+  .sht,.shd{
+    width:97% !important;
+  }
+  .opticon{display: none !important;}
+  .opt{padding-left: 4px !important}
+  .logo>span>h6,.logo>span>h3{
+    color: rgba(111, 189, 75, 0.842);
+    font-size:11px !important;
+    margin: 0;
+  }
+  .logo>span>h6{
+    font-size:7px !important;
+  }
+  .opt>h5,.opt>span>h5{
+    margin: 0;
+    font-size:8px !important;
+  }
+  #btn{
+    width:80px !important;
+    font-size:8px !important;
+  }
+  
+  #btnn{
+    width:50px !important;
+    font-size:8px !important;
+  }
+  #sh1,#sh2{
+    font-size: 8px!important;
+  }
+  #sbtn{
+    display: none;
+  }
+  .feed1{
+    background-position: right center;
+
+  }
+  .feed1>div{
+    top: 20% !important;
+    left: 20% !important;
+  }
+  .ext{display:none !important;}
+.items{
+  grid-template-columns:32% 32% 32% !important;
+}
+.spdisc>div{
+  margin: auto !important;
+  padding-top: 16% !important;
+  width: 60% !important;
+}
+.spdisc>div>h2{
+  font-size:13px !important;
+}
+.spdisc>div>p{
+  font-size: 11px !important;
+}
+.feed3>div{
+  width:87% !important;
+  padding-top:10% !important;
+}
+.feed3>div>p,.feed4>p{
+  font-size: 10px !important; 
+}
+.story{
+  overflow: auto;
+  height: 120px !important;
+}
+
+.newsgrid{
+  grid-template-columns: 50% 30% !important;
+
+}  
+.newsart>div>button,.horiz>div>button{
+  width:80px !important;
+  font-size: 10px !important;
+} 
+.sub{
+  width: inherit !important;
+  height: 150px !important;
+}
+.sub>div>h2{
+  font-size: 16px !important
+}
+.sub>div{
+  width: 100% !important;
+}
+.sub>div>div>button{
+  font-size: 12px !important;
+}
+}
